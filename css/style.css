@@ -1,0 +1,15 @@
+.album-cover {
+  width: 25%;
+  border: 20px solid grey;
+}
+
+.photo-list {
+  width: 100%;
+  padding: 10px;
+  height: 100px;
+
+}
+
+.single-photo {
+  width: 75%;
+}

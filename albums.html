@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en"> 
   <head>
-   <title>Home page</title>
+   <title>Album page</title>
 
     <link href="css/bootstrap.css" rel="stylesheet"> <!-- pulls in the main bootstrap content we need -->
-    
+    <link rel="stylesheet" href="css/style.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,8 +25,8 @@
         <!-- start un-collapsed navbar -->
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="albums.html">Albums</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="albums.html">Albums</a></li>
             <li><a href="photos.html">All Photos</a></li>
           </ul>
         </div>  <!--end of un-collapsed div-->
@@ -34,13 +34,20 @@
     </nav>
 
     <div class="container">
-      <h1>Hello...welcome to my bootstrap site</h1>
+      <h1>Here are my albums</h1>
 
       <!-- start breadcrumb -->
       <ol class="breadcrumb">
         <li><a href="index.html">Home</a></li>
+        <li><a href="albums.html">Album</a></li>
       </ol>
       <!-- end breadcrumb -->
+
+      <a href="./photos.html"><img class="album-cover" src="./images/img_1.jpg" alt="graffiti cover image" /></a>
+      <p>Graffiti Album</p>
+      <a href="./photos.html"><img class="album-cover" src="./images/img_2.jpg" alt="full english" /></a>
+      <a href="./photos.html"><img class="album-cover" src="./images/img_3.jpg" alt="racks of cheese" /></a>
+
     </div>
   
     <script src="js/jquery.min.js"></script> <!-- jquery libraries -->

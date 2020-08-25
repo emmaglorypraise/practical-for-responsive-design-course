@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en"> 
   <head>
-   <title>Home page</title>
+   <title>Photo one</title>
 
     <link href="css/bootstrap.css" rel="stylesheet"> <!-- pulls in the main bootstrap content we need -->
+    <link rel="stylesheet" href="css/style.css">
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,22 +26,27 @@
         <!-- start un-collapsed navbar -->
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li ><a href="index.html">Home</a></li>
             <li><a href="albums.html">Albums</a></li>
-            <li><a href="photos.html">All Photos</a></li>
+            <li class="active"><a href="photos.html">All Photos</a></li>
           </ul>
         </div>  <!--end of un-collapsed div-->
       </div>  <!--end of container-->
     </nav>
 
     <div class="container">
-      <h1>Hello...welcome to my bootstrap site</h1>
+      <h1>Some graffti I found</h1>
 
       <!-- start breadcrumb -->
       <ol class="breadcrumb">
         <li><a href="index.html">Home</a></li>
+        <li><a href="albums.html">Album</a></li>
+        <li><a href="photos.html">Graffiti Album</a></li>
+        <li><a href="photos.html">Graffiti photo</a></li>
       </ol>
       <!-- end breadcrumb -->
+
+      <img class="single-photo" src="./images/img_1.jpg" alt="graffti">
     </div>
   
     <script src="js/jquery.min.js"></script> <!-- jquery libraries -->
